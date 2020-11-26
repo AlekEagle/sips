@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "collections": "^5.1.12",
     "dotenv": "^8.2.0",
     "eris": "^0.14.0",
     "eris-command-handler": "^1.2.1",
