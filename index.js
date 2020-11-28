@@ -88,7 +88,6 @@ client.on('ready', () => {
 
 
 
-//lol fans go brrrrr
 
 
 
