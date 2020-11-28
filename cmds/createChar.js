@@ -29,7 +29,7 @@ module.exports = {
                                 };
                             }),
                             footer: {
-                                text: 'Page: 1/y'
+                                text: 'Page: 1/ insert page number here'
                             }
                         }
                     }
