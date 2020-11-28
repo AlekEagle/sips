@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Dwarf",
+        "abilityBonuses": [0, 0, 2, 0, 0, 0],
+        "subclass": [
+            {
+                "name": "Hill",
+                "abilityBonuses": [0, 0, 0, 0, 1, 0]
+            },
+            {
+                "name": "Mountain",
+                "abilityBonuses": [2, 0, 0, 0, 0, 0]
+            }
+        ]
+    },
+    {
+        "name": "Elf",
+        "abilityBonuses": [0, 2, 0, 0, 0, 0],
+        "subclass": [
+            {
+                "name": "High",
+                "abilityBonuses": [0, 0, 0, 1, 0, 0]
+            },
+            {
+                "name": "Wood",
+                "abilityBonuses": [0, 0, 0, 0, 1, 0]
+            },
+            {
+                "name": "Drow",
+                "abilityBonuses": [0, 0, 0, 0, 0, 1]
+            }
+        ]
+    },
+    {
+        "name": "Human",
+        "abilityBonuses": [1, 1, 1, 1, 1, 1],
+        "subclass": []
+    },
+    {
+        "name": "Halfling",
+        "abilityBonuses": [0, 2, 0, 0, 0, 0],
+        "subclass": [
+            {
+                "name": "Lightfoot",
+                "abilityBonuses": [0, 0, 0, 0, 0, 1]
+            },
+            {
+                "name": "Stout",
+                "abilityBonuses": [0, 0, 1, 0, 0, 0]
+            }
+        ]
+    }
+]
