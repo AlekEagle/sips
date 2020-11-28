@@ -49,5 +49,70 @@
                 "abilityBonuses": [0, 0, 1, 0, 0, 0]
             }
         ]
+    },
+    {
+        "name": "Dragonborn",
+        "abilityBonuses": [2, 0, 0, 0, 0, 1],
+        "subclass": [
+            {
+                "name": "Black"
+            },
+            {
+                "name": "Blue"
+            },
+            {
+                "name": "Brass"
+            },
+            {
+                "name": "Bronze"
+            },
+            {
+                "name": "Copper"
+            },
+            {
+                "name": "Gold"
+            },
+            {
+                "name": "Green"
+            },
+            {
+                "name": "Red"
+            },
+            {
+                "name": "Silver"
+            },
+            {
+                "name": "White"
+            }
+        ]
+    },
+    {
+        "name": "Gnome",
+        "abilityBonuses": [0, 0, 0, 2, 0, 0],
+        "subclass": [
+            {
+                "name": "Forest",
+                "abilityBonuses": [0, 1, 0, 0, 0, 0]
+            },
+            {
+                "name": "Rock",
+                "abilityBonuses": [0, 0, 1, 0, 0, 0]
+            }
+        ]
+    },
+    {
+        "name": "Half-elf",
+        "abilityBonuses": [0, 0, 0, 0, 0, 2],
+        "subclass": []
+    },
+    {
+        "name": "Half-orc",
+        "abilityBonuses": [2, 0, 1, 0, 0, 0],
+        "subclass": []
+    },
+    {
+        "name": "Tiefling",
+        "abilityBonuses": [0, 0, 0, 1, 0, 2],
+        "subclass": []
     }
 ]
