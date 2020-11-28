@@ -23,7 +23,7 @@ CharSheet.sync({ force: true });
 module.exports = {
     RACES: require("./data/races.json"),
 
-    CLASSES: [{ name: "Fighter", hp: 10 }, { name: "Rogue", hp: 8 }, { name: "Cleric", hp: 8 }, { name: "Wizard", hp: 6 }],
+    CLASSES: require("./data/classes.json"),
 
     ABILITY_KEYS: ['Strength', 'Dexterity', 'Constitution', 'Intelligence', 'Wisdom', 'Charisma'],
 

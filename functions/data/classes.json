@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Barbarian",
+        "hp": 12
+    },
+    {
+        "name": "Bard",
+        "hp": 8
+    },
+    {
+        "name": "Cleric",
+        "hp": 8
+    },
+    {
+        "name": "Druid",
+        "hp": 8
+    },
+    {
+        "name": "Fighter",
+        "hp": 10
+    },
+    {
+        "name": "Monk",
+        "hp": 8
+    },
+    {
+        "name": "Paladin",
+        "hp": 10
+    },
+    {
+        "name": "Ranger",
+        "hp": 10
+    },
+    {
+        "name": "Rogue",
+        "hp": 8
+    },
+    {
+        "name": "Sorcerer",
+        "hp": 6
+    },
+    {
+        "name": "Warlock",
+        "hp": 8
+    },
+    {
+        "name": "Wizard",
+        "hp": 6
+    }
+]

@@ -29,22 +29,36 @@ module.exports = {
                                 };
                             }),
                             footer: {
-                                text: 'gg'
+                                text: 'Page: 1/y'
                             }
                         }
                     }
-                }, ['⬆', '⬇', '⏺', '⏹'], '5m');
+                }, ['⬅', '➡', '⏺', '⏹'], '5m');
                 menu.addState('class', {
-                    message: "hi"
+                    message: function () {
+                        return {
+                            embed: {
+                                title: `Pick ${char.name}'s class`,
+                                fields: CharacterSheet.CLASSES.map((o, i, s) => {
+                                    return {
+                                        name: `${selection === i ? '> ' : ''}${o.name}`,
+                                        value: `\`HP: d${o.hp}\``,
+                                        inline: true
+                                    };
+                                })
+                            }
+                        }
+                    }
                 });
-                menu.addEmoji('default', '⬆', function () {
+                menu.addEmoji('default', '⬅', function () {
                     if (--selection < 0) selection = CharacterSheet.RACES.length - 1;
                 });
-                menu.addEmoji('default', '⬇', function () {
+                menu.addEmoji('default', '➡', function () {
                     if (++selection > CharacterSheet.RACES.length - 1) selection = 0;
                 });
                 menu.addEmoji('default', '⏺', function () {
                     char.race = CharacterSheet.RACES[selection];
+                    selection = 0;
                     if (char.race.subclass.length > 0) {
                         menu.setState('subclass');
                     } else {
